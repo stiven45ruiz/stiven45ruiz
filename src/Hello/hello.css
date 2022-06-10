@@ -4,7 +4,10 @@
     justify-content: center;
     margin: 0;
     height: 100vh;
-    background: transparent linear-gradient(180deg, #201E22 0%, #865051 26%, #D48085 44%, #867E97 62%, #4E5E7F 77%, #354259 100%, #808080 100%) 0% 0% no-repeat padding-box;
+    background: #114357;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(180deg, #F29492, #114357);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(180deg, #F29492, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .hello__container{
     display: flex;
@@ -15,7 +18,7 @@
 .hello__container h1{
     font-size: 3rem;
     margin: 5px;
-    color: #4E5E7F;
+    color: #ecc8c8;
 }
 .hello__container p{
     font-size: 1.5rem;
