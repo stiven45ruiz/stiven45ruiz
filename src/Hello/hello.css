@@ -1,0 +1,23 @@
+.hello{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    height: 100vh;
+    background: transparent linear-gradient(180deg, #201E22 0%, #865051 26%, #D48085 44%, #867E97 62%, #4E5E7F 77%, #354259 100%, #808080 100%) 0% 0% no-repeat padding-box;
+}
+.hello__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hello__container h1{
+    font-size: 3rem;
+    margin: 5px;
+    color: #4E5E7F;
+}
+.hello__container p{
+    font-size: 1.5rem;
+    color: #CECECE;
+}
