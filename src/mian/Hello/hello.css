@@ -16,11 +16,23 @@
 
 }
 .hello__container h1{
-    font-size: 3rem;
+    font-size: 6rem;
     margin: 5px;
     color: #ecc8c8;
 }
 .hello__container p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: #CECECE;
+}
+.hello__container ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+.hello__container ul li{
+    margin: 0 20px;
+}
+.hello__container ul li a img{
+    width: 30px;
 }
