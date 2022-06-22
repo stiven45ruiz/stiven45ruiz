@@ -1,52 +1,58 @@
 .aboutme__container{
-    color: antiquewhite;
+  color: antiquewhite;
+  margin: 50px;
 }
 .aboutme__container__title{
-    font-size: 4.4rem;
-    margin-left: 20px;
+  font-size: 4.4rem;
+  margin-left: 20px;
     
 }
 .aboutme__container__links{
-    display: flex;
-    justify-content: space-around;
-    font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  font-size: 2rem;
     
     
 }
 .aboutme__container__link{
-    text-decoration: none;
-    color: antiquewhite;
+  text-decoration: none;
+  color: antiquewhite;
 }
 .activate{
-    border-bottom: 1px solid blanchedalmond;
+  border-bottom: 1px solid blanchedalmond;
 }
 .aboutme__container__text{
-    font-size: 1.5rem;
-    padding: 10px;
+  font-size: 1.5rem;
+  padding: 10px;
 }
 .aboutme__container__buttons{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
      
 }
 .aboutme__container__button{
-    width: 300px;
-    height: 30px;
-    margin: 10px;
-    color: #354259;
-    font-size: 2rem;
-    border: none;
-    border-radius: 10px;
-    background-color: #F9F0B7;
+  width: 300px;
+  height: 30px;
+  margin: 10px;
+  color: #354259;
+  font-size: 2rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #F9F0B7;
+}
+.aboutme__container__button a{
+  text-align: center;
+  text-decoration: none;
+  color: #354259;
 }
 .aboutme__container__button:first-child{
-    background-color: #D48085;
+  background-color: #D48085;
 }
 
 
 .deactivate{
-    display: none;
+  display: none;
 }
 
 /*  */
