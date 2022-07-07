@@ -27,6 +27,14 @@ const projects = [
     demo: 'https://stiven45ruiz.github.io/ToDo-React/',
     imageUrl: 'https://i.ibb.co/wSdrc3H/captura-de-pantalla-2022-06-08-202518-cd0a225f-6ced-4108-8bd8-576d29423437.png',
     github: 'https://github.com/stiven45ruiz/ToDo-React'
+  },
+  {
+    id: 4,
+    title: 'Pokedex',
+    description: 'Pokedex. Consume la api de pokeapi.co Creada con JS vanilla y CSS',
+    demo: 'https://stiven45ruiz.github.io/pokedex/',
+    imageUrl: 'https://i.ibb.co/QCH4nzR/Captura-de-pantalla-2022-06-29-213031.png',
+    github: 'https://github.com/stiven45ruiz/pokedex'
   }
 
 ]

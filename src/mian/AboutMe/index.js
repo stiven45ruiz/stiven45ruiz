@@ -8,14 +8,14 @@ import {Skils} from './Skils'
 
 
 function AbautMe(){
-    console.log(window.location.href);
+
     return(
         
         <section className="aboutme__container">
             <h2 className="aboutme__container__title">Sobre Mi...</h2>
             <div className="aboutme__container__links">
                 <a 
-                    href="#profile" 
+                    href="#profile"
                     className="aboutme__container__link activate"
                 >Perfil
                     </a>
@@ -28,9 +28,13 @@ function AbautMe(){
                     className="aboutme__container__link"    
                 >Skils</a>
             </div>
+
             <Profile/>
+            
             <Studies/>
+            
             <Skils/>
+            
 
             <div className="aboutme__container__buttons">
                 <button className="aboutme__container__button" ><a href="mailto:stiven45ruiz@gmail.com">Escrieme</a></button>

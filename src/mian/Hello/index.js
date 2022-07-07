@@ -14,7 +14,7 @@ function Hello(){
                     <li>
                         <a href="https://github.com/stiven45ruiz">
                             <img
-                                src="https://cdn.icon-icons.com/icons2/2415/PNG/512/github_original_wordmark_logo_icon_146506.png"
+                                src="https://i.ibb.co/R7ZLjDQ/github-original-wordmark-logo-icon-146506.png"
                                 alt="GITHUB"
                             ></img>
                         </a>
@@ -22,7 +22,7 @@ function Hello(){
                     <li>
                         <a href="https://www.linkedin.com/in/stiven45ruiz/">
                         <img    
-                                src="https://cdn.icon-icons.com/icons2/2037/PNG/512/in_linked_linkedin_media_social_icon_124259.png"
+                                src="https://i.ibb.co/xSmzXWn/in-linked-linkedin-media-social-icon-124259.png"
                                 alt="linkedin"
                             ></img>
                         </a>
