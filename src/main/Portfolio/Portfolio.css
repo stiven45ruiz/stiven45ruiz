@@ -1,17 +1,24 @@
+.container{
+    max-width: 1000px;
+    width: 70%;
+    color: antiquewhite;
+    margin: 50px auto;
+}
+
 .portfolio__title{
     font-size: 4rem;
     margin: 20px;
     color: white;
 }
-.container{
+.projects__container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 50px 20px;
     justify-content: center;
-    margin: 50px;
+    
 }
 .card{
-    background-color: #113747 ;
+    background-color: #14063B ;
     text-align: center;
     color: white;
     border-radius: 10px;
@@ -50,14 +57,18 @@
     color: aliceblue;
 }
 .button--primary{
-    background-color: #007bff;
+    background-color: #EF2A7C;
+    border: solid 1px #6D0963;
 }
 .button--secondary{
-    background-color: #6c757d;
+    border: solid 1px #EF2A7C;
+    background-color: #6D0963;
 }
 .button--primary:hover{
-    background-color: #016bdd;
+    box-shadow: #49F2E1 0px 0px 10px;
+
 }
 .button--secondary:hover{
-    background-color: #4a5055;
+    
+    box-shadow: #49F2E1 0px 0px 10px;
 }

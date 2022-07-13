@@ -35,6 +35,14 @@ const projects = [
     demo: 'https://stiven45ruiz.github.io/pokedex/',
     imageUrl: 'https://i.ibb.co/QCH4nzR/Captura-de-pantalla-2022-06-29-213031.png',
     github: 'https://github.com/stiven45ruiz/pokedex'
+  },
+  {
+    id: 5,
+    title: 'WeatherApp',
+    description: 'App del clima. Creada con React y consumiendo api de openweathermap.org',
+    demo: 'https://stiven45ruiz.github.io/WeatherApp/',
+    imageUrl: 'https://i.ibb.co/QMXKRHq/Captura-de-pantalla-2022-07-12-182252.png',
+    github: 'https://github.com/stiven45ruiz/WeatherApp'
   }
 
 ]
@@ -42,9 +50,9 @@ const projects = [
 function Portfolio(){
   console.log(projects)
   return (
-    <React.Fragment>
+    <section className="container">
       <h2 className="portfolio__title">Portfolio</h2>
-      <section className="container">
+      <article className="projects__container">
           {
             projects.map(card => (
                 <Cards
@@ -57,8 +65,8 @@ function Portfolio(){
                 />
             ))
           }
-      </section>
-    </React.Fragment>
+      </article>
+    </section>
     
   )
 }

@@ -1,6 +1,9 @@
+
 .aboutme__container{
+  max-width: 800px;
+  width: 70%;
   color: antiquewhite;
-  margin: 50px;
+  margin: 50px auto;
 }
 .aboutme__container__title{
   font-size: 4.4rem;
@@ -17,12 +20,17 @@
 .aboutme__container__link{
   text-decoration: none;
   color: antiquewhite;
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  font-size: 2rem;
 }
 .activate{
   border-bottom: 1px solid blanchedalmond;
 }
 .aboutme__container__text{
-  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 1.8rem;
   padding: 10px;
 }
 .aboutme__container__buttons{
@@ -36,7 +44,7 @@
   height: 30px;
   margin: 10px;
   color: #354259;
-  font-size: 2rem;
+  font-size: 2.2rem;
   border: none;
   border-radius: 10px;
   background-color: #F9F0B7;
@@ -51,8 +59,8 @@
 }
 
 
-.deactivate{
-  display: none;
+.info__content{
+  min-height: 200px;
 }
 
 /*  */
