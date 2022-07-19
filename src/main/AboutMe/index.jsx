@@ -16,7 +16,7 @@ function AbautMe(){
       } = useLocationUrl();
 
     
-    console.log(locationUrl)
+    // console.log(locationUrl)
 
 
     return(
@@ -46,7 +46,7 @@ function AbautMe(){
 
             <div className="info__content">
                 {
-                    locationUrl === ''? <Profile/>: ''
+                    locationUrl === ''? <Skils/>: ''
                 }
                 {
                     locationUrl === 'profile'? <Profile/>: ''
@@ -60,8 +60,13 @@ function AbautMe(){
             </div>
 
             <div className="aboutme__container__buttons">
-                <button className="aboutme__container__button" ><a href="mailto:stiven45ruiz@gmail.com">Escrieme</a></button>
-                <button className="aboutme__container__button">Descargar CV</button>
+                <button className="aboutme__container__button" >
+                    <a href="mailto:stiven45ruiz@gmail.com">Escrieme</a></button>
+                <button className="aboutme__container__button">
+                    <a 
+                    href="https://drive.google.com/uc?id=1zVM8mHUghhL04CkF0Hz2AsugcBDa7irx&export=download"
+                    >Descargar CV</a>
+                </button>
             </div>
         </section>
     )

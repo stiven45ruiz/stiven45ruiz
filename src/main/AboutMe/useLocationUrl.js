@@ -5,8 +5,8 @@ const useLocationUrl = () => {
   const [locationUrl, setLocationUrl] = React.useState(null);
 
   React.useEffect(()=>{
-    setLocationUrl('profile')
-    console.log('hola', locationUrl)
+    setLocationUrl('skils')
+    // console.log('hola', locationUrl)
 
   },[])
 

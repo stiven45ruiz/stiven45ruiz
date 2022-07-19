@@ -4,13 +4,10 @@
     justify-content: center;
     margin: 0;
     height: 100vh;
-    background: #114357;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(180deg, #92c7f2, #114357);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(180deg, #92c7f2, #114357); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
     background: #0f0c29;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(180deg, #010109, #050118, #11022B, #14063B, #561750, #B05372);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(180deg , #010109, #050118, #11022B, #14063B, #561750, #B05372); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(180deg, #010109, #050118, #11022B, #561750 , #141f30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(180deg , #010109, #050118, #11022B, #561750 , #141f30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
 }
 .hello__container{
@@ -45,4 +42,14 @@
 }
 .hello__container ul li a img{
     width: 30px;
+}
+
+.arrow__down:hover{
+    cursor: pointer;
+}
+.arrow__down img{
+    position: absolute;
+    width: 50px;
+    left: calc(50% - 25px);
+    bottom: 30px;
 }

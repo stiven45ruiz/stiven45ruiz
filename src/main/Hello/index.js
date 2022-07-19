@@ -4,7 +4,15 @@ import './hello.css';
 
 function Hello(){
 
-    
+  const down = () =>{
+    window.scroll({
+      top: window.screen.availHeight < 1000 ?window.screen.availHeight: 900,
+      left: 0,
+      behavior: 'smooth'
+    })
+    console.log(window.screen)
+
+  }
 
   return(
     <section className="hello">
@@ -32,7 +40,7 @@ function Hello(){
           <li>
             <a href="https://github.com/stiven45ruiz">
               <img
-                src="https://i.ibb.co/R7ZLjDQ/github-original-wordmark-logo-icon-146506.png"
+                src="https://i.ibb.co/RPRStZP/github.png"
                 alt="GITHUB"
               ></img>
             </a>
@@ -46,6 +54,10 @@ function Hello(){
             </a>
           </li>
         </ul>
+
+        <picture className="arrow__down" onClick={down}>
+          <img src="https://cdn-icons-png.flaticon.com/512/8036/8036667.png" alt="Arrow"></img>
+        </picture>
       </div>  
     </section>
   )

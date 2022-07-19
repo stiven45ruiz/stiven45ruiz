@@ -25,7 +25,8 @@
   font-size: 2rem;
 }
 .activate{
-  border-bottom: 1px solid blanchedalmond;
+  border-bottom: 1px solid #49F2E1;
+  color: #49F2E1;
 }
 .aboutme__container__text{
   text-align: center;
@@ -47,20 +48,48 @@
   font-size: 2.2rem;
   border: none;
   border-radius: 10px;
-  background-color: #F9F0B7;
+  background-color: #B532D9;
+  border: none;
+  box-shadow: #49F2E1 0px 0px 7px;
+}
+.aboutme__container__button:first-child{
+  background-color: #49F2E1;
+  box-shadow: #B532D9 0px 0px 7px;
+}
+.aboutme__container__button:first-child a{
+  color: #354259;
 }
 .aboutme__container__button a{
   text-align: center;
   text-decoration: none;
-  color: #354259;
+  color: #e0e0e0;
 }
-.aboutme__container__button:first-child{
-  background-color: #D48085;
-}
-
 
 .info__content{
   min-height: 200px;
 }
 
-/*  */
+/* STUDIES */
+
+.studies__container ul{
+  list-style: none;
+  font-size: 1.8rem;
+}
+.studies__list > li{
+  margin-top: 20px;
+}
+
+
+/* SKILS */
+.skils__container{
+  font-size: 1.8rem;
+  margin-top: 50px;
+}
+.skils__picture{
+  width: 100px !important;
+}
+.skils__image{
+  height: 100px;
+  width: auto;
+}
+
