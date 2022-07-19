@@ -51,19 +51,17 @@
   background-color: #B532D9;
   border: none;
   box-shadow: #49F2E1 0px 0px 7px;
-}
-.aboutme__container__button:first-child{
-  background-color: #49F2E1;
-  box-shadow: #B532D9 0px 0px 7px;
-}
-.aboutme__container__button:first-child a{
-  color: #354259;
-}
-.aboutme__container__button a{
   text-align: center;
   text-decoration: none;
   color: #e0e0e0;
 }
+.aboutme__container__button:first-child{
+  background-color: #49F2E1;
+  box-shadow: #B532D9 0px 0px 7px;
+  color: #354259;
+
+}
+
 
 .info__content{
   min-height: 200px;

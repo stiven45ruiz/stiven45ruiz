@@ -60,13 +60,17 @@ function AbautMe(){
             </div>
 
             <div className="aboutme__container__buttons">
-                <button className="aboutme__container__button" >
-                    <a href="mailto:stiven45ruiz@gmail.com">Escríbeme</a></button>
-                <button className="aboutme__container__button">
-                    <a 
-                    href="https://drive.google.com/uc?id=1zVM8mHUghhL04CkF0Hz2AsugcBDa7irx&export=download"
-                    >Descargar CV</a>
-                </button>
+                
+                <a 
+                className="aboutme__container__button"
+                href="mailto:stiven45ruiz@gmail.com"
+                >Escríbeme</a>
+            
+                <a 
+                className="aboutme__container__button"
+                href="https://drive.google.com/uc?id=1zVM8mHUghhL04CkF0Hz2AsugcBDa7irx&export=download"
+                >Descargar CV</a>
+                
             </div>
         </section>
     )
