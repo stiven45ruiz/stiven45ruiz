@@ -31,7 +31,7 @@ const projects = [
   {
     id: 4,
     title: 'Pokedex',
-    description: 'Pokedex. Consume la api de pokeapi.co Creada con JS vanilla y CSS',
+    description: 'Pokedex. Consume la API de pokeapi.co Creada con JS vanilla y CSS',
     demo: 'https://stiven45ruiz.github.io/pokedex/',
     imageUrl: 'https://i.ibb.co/QCH4nzR/Captura-de-pantalla-2022-06-29-213031.png',
     github: 'https://github.com/stiven45ruiz/pokedex'
@@ -39,7 +39,7 @@ const projects = [
   {
     id: 5,
     title: 'WeatherApp',
-    description: 'App del clima. Creada con React y consumiendo api de openweathermap.org',
+    description: 'App del clima. Creada con React y consumiendo API de openweathermap.org',
     demo: 'https://stiven45ruiz.github.io/WeatherApp/',
     imageUrl: 'https://i.ibb.co/QMXKRHq/Captura-de-pantalla-2022-07-12-182252.png',
     github: 'https://github.com/stiven45ruiz/WeatherApp'
@@ -51,7 +51,7 @@ function Portfolio(){
   console.log(projects)
   return (
     <section className="container">
-      <h2 className="portfolio__title">Portfolio</h2>
+      <h2 className="portfolio__title">Portafolio</h2>
       <article className="projects__container">
           {
             projects.map(card => (

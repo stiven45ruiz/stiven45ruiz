@@ -7,7 +7,7 @@ function Studies(){
         className="studies__container"
     >
       <ul className="studies__list">
-        <li>SENA: Tecnologo en Analisis y desarrollado de sistemas de informacion</li>
+        <li>SENA: Tecnólogo en Análisis y desarrollado de sistemas de información</li>
         <li>Platzi: Escuela de JavaScript</li>
         <li>Platzi: Escuela de Desarrollo Web</li>   
       </ul>
