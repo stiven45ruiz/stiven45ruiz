@@ -63,12 +63,14 @@ function AbautMe(){
                 
                 <a 
                 className="aboutme__container__button"
-                href="mailto:stiven45ruiz@gmail.com"
+                href="https://t.me/StivenRuiz"
+                target="_blank" rel="noreferrer"
                 >Escríbeme</a>
             
                 <a 
                 className="aboutme__container__button"
                 href="https://drive.google.com/uc?id=1zVM8mHUghhL04CkF0Hz2AsugcBDa7irx&export=download"
+                
                 >Descargar CV</a>
                 
             </div>

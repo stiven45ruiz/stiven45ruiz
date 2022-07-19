@@ -42,6 +42,7 @@ function Hello(){
               <img
                 src="https://i.ibb.co/RPRStZP/github.png"
                 alt="GITHUB"
+                target="_blank" rel="noreferrer"
               ></img>
             </a>
           </li>
@@ -50,6 +51,7 @@ function Hello(){
             <img    
                 src="https://i.ibb.co/xSmzXWn/in-linked-linkedin-media-social-icon-124259.png"
                 alt="linkedin"
+                target="_blank" rel="noreferrer"
             ></img>
             </a>
           </li>
