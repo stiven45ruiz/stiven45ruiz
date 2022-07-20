@@ -69,7 +69,7 @@ function AbautMe(){
             
                 <a 
                 className="aboutme__container__button"
-                href="https://drive.google.com/uc?id=1zVM8mHUghhL04CkF0Hz2AsugcBDa7irx&export=download"
+                href="https://drive.google.com/uc?id=1La1rglAFLJeDzT9II_BcwW17WPdUPoMp&export=download"
                 
                 >Descargar CV</a>
                 
