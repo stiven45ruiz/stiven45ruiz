@@ -2,6 +2,9 @@
 
 🌱 I’m currently learning web development with React and JavaScript
 
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
 <!--
 **stiven45ruiz/stiven45ruiz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
