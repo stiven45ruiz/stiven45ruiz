@@ -2,6 +2,7 @@
 
 🌱 I’m currently learning web development with React and JavaScript
 
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stiven45ruiz&layout=compact)](https://github.com/anuraghazra/github-readme-stats)
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white) ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white) 
 
