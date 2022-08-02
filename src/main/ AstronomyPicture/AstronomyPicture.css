@@ -18,3 +18,13 @@
 .pictureoftheday__image{
   width: 100%;
 }
+.pictureoftheday__explanation{
+  font-size: 1.2rem;
+}
+.pictureoftheday__link{
+  font-size: 1.6rem;
+  color: rgb(84, 129, 214);
+}
+.pictureoftheday__link:hover{
+  color: rgb(35, 95, 207);
+}
