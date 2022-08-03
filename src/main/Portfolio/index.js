@@ -6,6 +6,14 @@ import {Cards} from './Cards'
 const projects = [
   {
     id: 1,
+    title: 'Yard Sale',
+    description: 'Marketplace desarrollado con React. Continúa en desarrollo...',
+    demo: 'https://yardsale-shop-4fn88tup7-stiven45ruiz.vercel.app/',
+    imageUrl: 'https://i.ibb.co/ygbs4H6/Capturayard-Sale.png',
+    github: 'https://github.com/stiven45ruiz/yardsale-shop'
+  },
+  {
+    id: 1,
     title: 'Movies',
     description: 'Es una SPA(Single Page Application) de películas, que consume la API de TheMovieDB. Desarrollado en JavaScript HTML Y CSS',
     demo: 'https://stiven45ruiz.github.io/clone-netfix/',
